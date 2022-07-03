@@ -8,6 +8,8 @@
     "dev": "nodemon --watch 'src/' --exec 'ts-node src/app.ts' -e ts",
     "build": "babel src --out-dir dist --no-copy-ignored",
     "test": "jest",
+    "test:watch": "yarn test --watchAll",
+    "test:coverage": "yarn test --coverage",
     "lint": "eslint",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install"
