@@ -12,7 +12,7 @@
   },
   "lint-staged": {
     "*.{ts,js}": [
-      "prettier-eslint --list-different --write './src/**/*.{ts,js}'",
+      "prettier-eslint --list-different --write",
       "eslint --fix",
       "test"
     ]
