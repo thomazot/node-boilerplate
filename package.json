@@ -11,8 +11,8 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{ts,js}": [
-      "prettier-eslint --list-different --write",
+    "*.{ts}": [
+      "prettier-eslint --list-different",
       "eslint --fix",
       "test"
     ]
