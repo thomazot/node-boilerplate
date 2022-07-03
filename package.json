@@ -10,7 +10,7 @@
     "test": "jest",
     "test:watch": "yarn test --watchAll",
     "test:coverage": "yarn test --coverage",
-    "lint": "eslint",
+    "lint": "eslint src/**/*.{ts,js} ",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install"
   },
