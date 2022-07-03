@@ -1,9 +1,8 @@
-import express from "express";
+import express, {Response} from "express";
 
 const server = express();
 
-server.get("/", (_, response) => {
-  
+server.get("/",(request, response: Response) => {
   return response.send("Hello!");
 });
 
