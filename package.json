@@ -11,7 +11,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{ts}": [
+    "*.ts": [
       "prettier-eslint --list-different",
       "eslint --fix",
       "test"
