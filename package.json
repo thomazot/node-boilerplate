@@ -18,7 +18,7 @@
     "*.{ts,js}": [
       "prettier --list-different --write",
       "eslint",
-      "jest --bail --findRelatedTests --runInBand"
+      "jest --passWithNoTests --bail --findRelatedTests  --runInBand"
     ]
   },
   "dependencies": {
